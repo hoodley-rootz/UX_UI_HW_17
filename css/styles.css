@@ -5,6 +5,7 @@ body {
 .nav {
     display:flex;
     justify-content:flex-end;
+    align-items: center;
 }
 
 .nav p {
@@ -37,7 +38,7 @@ ul {
 }
 
 .heroImg {
-    height:700px; 
+    height:750px; 
     padding:1%;
     /*background-color:aqua;*/
     
@@ -51,22 +52,24 @@ ul {
 }
 
 .blurb {
-    /*display:flex;*/
     width: 35%;
     /*outline: 3px solid red;*/
     padding:0px; /*I want this to fully align to the bottom*/
 }
+
 .content {
     display:flex;
     align-items: flex-end;
     justify-content:center;
     width:100%;
-    height:650px;
+    height:75vh;
 }
 
 p {
     font-family: 'Trirong', serif;
     font-size:20px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
 }
 
 button {
@@ -89,6 +92,7 @@ button {
     font-size:54px;
     font-weight:300;
     padding-bottom:0%; /*padding issue again*/
+    margin-block-end: 0em;
 }
 
 .caseStudy div {
